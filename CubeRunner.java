@@ -11,7 +11,9 @@ public class CubeRunner
 		System.out.print( "Enter the side :: " );
 		int side = kb.nextInt();
 
-		//print your answer here
+		//surface area = 6s^2
+		int surfaceArea = 6 * side * side 
+		System.out.println(surfaceArea)
 	}
 }
 
@@ -40,3 +42,4 @@ Cube area is :: 73926.0
 
 
 */
+

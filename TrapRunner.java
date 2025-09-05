@@ -15,8 +15,9 @@ public class TrapRunner
 		System.out.print( "Enter the heigth :: " );		
 		int height = kb.nextInt();
 		
-		//print out the answer here
-		
+		//area = 1/2 (base1 + base2) * height
+		double area = 0.5 * (base1 + base2) * height;
+		System.out.println(area); 
 	}
 }
 
@@ -44,3 +45,4 @@ Sample Output :
 
 
 */
+
